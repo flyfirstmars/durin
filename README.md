@@ -126,14 +126,6 @@ Key dependencies used:
 - `spring-ai-starter-mcp-server`: Spring AI MCP Server STDIO support
 - `spring-boot-starter-test`: Testing framework
 
-## 🤝 Contributing
-
-Feel free to contribute by:
-1. Adding new datetime tools
-2. Improving error handling
-3. Adding more comprehensive tests
-4. Enhancing documentation
-
 ## 📄 License
 
 This project is open source and available under the MIT License.
