@@ -130,6 +130,3 @@ Key dependencies used:
 
 This project is open source and available under the MIT License.
 
----
-
-**Built with ❤️ using Spring AI 1.0 GA and Spring Boot 3.5.3** 
