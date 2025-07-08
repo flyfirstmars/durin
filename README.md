@@ -11,13 +11,11 @@ This project demonstrates how to create an MCP Server that exposes datetime tool
 - **STDIO Transport**: Direct communication without HTTP overhead
 - **DateTime Tools**: Multiple datetime-related tools for AI assistants
 - **Function-based Tool Registration**: Uses Spring beans as functions for tool registration
-- **Production Ready**: Following Spring Boot best practices
 
 ## 📋 Prerequisites
 
 - **Java 21+**: Required for Spring Boot 3.5.3
 - **Maven 3.6+**: For dependency management
-- **SDKMAN**: Recommended for Java version management
 
 ## 🛠️ Available Tools
 
@@ -61,13 +59,9 @@ Add this to your MCP client configuration (e.g., Claude Desktop):
 }
 ```
 
-**Note**: Update the Java path and JAR path to match your system:
-- Java path: Use `which java` or `echo $JAVA_HOME/bin/java`
-- JAR path: Use the absolute path to your built JAR file
-
 ### 3. Test the MCP Server
 
-Once configured, your MCP client (like Claude) can use these tools:
+Once configured, your MCP client (like Claude, Github Copilot Chat) can use these tools:
 
 - *"What's the current time?"* → Uses `getCurrentDateTime`
 - *"Give me the time in format dd/MM/yyyy"* → Uses `getFormattedDateTime`  
@@ -126,18 +120,7 @@ Key dependencies used:
 - `spring-ai-starter-mcp-server`: Spring AI MCP Server STDIO support
 - `spring-boot-starter-test`: Testing framework
 
-## 🤝 Contributing
-
-Feel free to contribute by:
-1. Adding new datetime tools
-2. Improving error handling
-3. Adding more comprehensive tests
-4. Enhancing documentation
-
 ## 📄 License
 
 This project is open source and available under the MIT License.
 
----
-
-**Built with ❤️ using Spring AI 1.0 GA and Spring Boot 3.5.3** 
